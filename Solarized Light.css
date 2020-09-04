@@ -1,0 +1,135 @@
+/* login */
+.el-button--primary,
+.el-input--suffix,
+.el-input__inner {
+    border-radius: 20px !important;
+}
+
+.el-button--primary {
+    background-color: #424e53;
+    border: none;
+}
+
+.el-button--primary:hover {
+    background-color: #545d61;
+    border: none;
+}
+
+
+.el-input--suffix,
+.el-input__inner {
+    background: #fffcf7 !important;
+}
+
+/* editor */
+ul li.selected,
+ul li.selected > div,
+ul li:hover,
+ul li > div:hover,
+div.topbar .el-input.search .el-input__inner,
+div.content span.tag {
+    border-radius: 20px !important;
+}
+ul li > div:hover {
+    background: #f2ebd4 !important;
+}
+
+ul li.selected,
+ul li.selected > div {
+    background: #5c6d74 !important;
+}
+
+ul li.selected ul li div span {
+    color: #b0a6a6 !important;
+}
+
+html,
+body {
+    background: rgb(252, 246, 229);
+    color: #3f4e54 !important;
+}
+
+
+.el-aside {
+    overflow: visible !important;
+}
+
+.stat .grid {
+    padding: 10px !important;
+}
+.stat .grid .day {
+    background: #d2d2d2 !important;
+    border-radius: 20px !important;
+}
+
+.stat .grid .day.green {
+    background: #3f4e54 !important;
+    border-radius: 6px;
+}
+
+.stat .grid:hover {
+    box-shadow: 0px 2px 16px #DDDDDD;
+    border-radius: 6px;
+}
+
+.stat .grid .day.today {
+    border-color: #5c6d74 !important;
+}
+#sidebar h3 {
+    color: #5c6d74 !important;
+    font-weight: 800;
+    font-size: 1em;
+}
+
+.stat .datas .data .number {
+    color: #424e53 !important;
+}
+.stat .datas .data .type {
+    font-size: 8px !important;
+}
+
+div.topbar .el-input.search .el-input__inner {
+    background: #f7eedd !important;
+}
+.el-input.is-active .el-input__inner,
+.el-input__inner:focus {
+    border-color: #5c6d74;
+}
+
+div.memo div.card,
+.editor-content,
+div.editor-menu-bar {
+    background: #fff9ef !important;
+}
+
+div.editor-menu-bar .submit-btn {
+    background: #5c6d74 !important;
+    border: none;
+    border-radius: 20px;
+}
+
+div.editor-menu-bar .submit-btn:hover {
+    background: #424e53 !important;
+}
+
+div.content span.tag {
+    background-color: #f7eedd !important;
+    color: #a4772d !important;
+}
+
+div.topbar {
+    padding: 12px 10px 0 !important;
+}
+div.input {
+    padding: 0 16px 10px !important;
+}
+
+div.content label.highlight {
+    background: #f0c859 !important;
+    color: #424e53 !important;
+    padding: 4px 6px !important;
+}
+
+div.content {
+    padding: 10px 0 !important;
+}
